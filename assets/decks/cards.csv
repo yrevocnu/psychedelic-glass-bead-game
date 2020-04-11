@@ -1,0 +1,288 @@
+Deck,Directory,File,Suit,Name,Description
+RiderWaite,RiderWaite/,RW_Fool.jpg,Trumps,Fool,"folly, mania, delerium"
+RiderWaite,RiderWaite/,RW_Magician.jpg,Trumps,Magician,"Skill, Diplomacy, self confidence, will"
+RiderWaite,RiderWaite/,RW_HighPriestess.jpg,Trumps,High Priestess,"Secrets, mystery of the future, silence, tenacity, wisdom"
+RiderWaite,RiderWaite/,RW_Empress.jpg,Trumps,Empress,"Fruitfulness, Initiative, action, clendestine, the unknown"
+RiderWaite,RiderWaite/,RW_Emperor.jpg,Trumps,Emperor,"Stability, power, aid, protection, a great person, conviction, reason"
+RiderWaite,RiderWaite/,RW_Heirophant.jpg,Trumps,Heirophant,"marrige alliance, captivity, mercy and goodness, "
+RiderWaite,RiderWaite/,RW_Lovers.jpg,Trumps,Lovers,"attraction, love, beauty, trials overcome"
+RiderWaite,RiderWaite/,RW_Chariot.jpg,Trumps,Chariot,"War, triumph, succor, providence, presumption, vengence, trouble"
+RiderWaite,RiderWaite/,RW_Strength.jpg,Trumps,Strength,"Power, Energy, action, courage, magnamity"
+RiderWaite,RiderWaite/,RW_Hermit.jpg,Trumps,Hermit,"treason, dissimulation, corruption, rogouery"
+RiderWaite,RiderWaite/,RW_Fortune.jpg,Trumps,Fortune,"Destiny, fortune, luck"
+RiderWaite,RiderWaite/,RW_Justice.jpg,Trumps,Justice,"Equity, rightness, "
+RiderWaite,RiderWaite/,RW_HangedMan.jpg,Trumps,Hanged Man,"wisdom, trials, circumspection, discernment, sacrifice"
+RiderWaite,RiderWaite/,RW_Death.jpg,Trumps,Death,"End, mortality, destruction"
+RiderWaite,RiderWaite/,RW_Temperance.jpg,Trumps,Temperance,"economy, moderation, frugality"
+RiderWaite,RiderWaite/,RW_Devil.jpg,Trumps,Devil,"ravage, violence, pettiness, blindness"
+RiderWaite,RiderWaite/,RW_Tower.jpg,Trumps,Tower,"misery, distress, adversity, calamity"
+RiderWaite,RiderWaite/,RW_Star.jpg,Trumps,Star,"loss, theft, privation, "
+RiderWaite,RiderWaite/,RW_Moon.jpg,Trumps,Moon,"danger, darkness, terror, deception, error"
+RiderWaite,RiderWaite/,RW_Sun.jpg,Trumps,Sun,"material happiness, contentment, fortunate marrige"
+RiderWaite,RiderWaite/,RW_Judgement.jpg,Trumps,Judgement,"change of position, renewal, outcome"
+RiderWaite,RiderWaite/,RW_World.jpg,Trumps,World,"assured success, voyage, change of place"
+RiderWaite,RiderWaite/,RW_W_K.jpg,Wands,King of Wands,"generally married, honest, contientious, country-man"
+RiderWaite,RiderWaite/,RW_W_Q.jpg,Wands,Queen of Wands,"friendly, chaste, loving, honorable woman, country woman"
+RiderWaite,RiderWaite/,RW_W_Knight.jpg,Wands,Knight of Wands,"departure, absence, flight, immigration"
+RiderWaite,RiderWaite/,RW_W_Page.jpg,Wands,Page of Wands,bearer of favorable testimony
+RiderWaite,RiderWaite/,RW_W_10.jpg,Wands,10 of Wands,"oppression, who is he taking the rods to and how will they use them?"
+RiderWaite,RiderWaite/,RW_W_9.jpg,Wands,9 of Wands,strength in opposition
+RiderWaite,RiderWaite/,RW_W_8.jpg,Wands,8 of Wands,speed toward and end which promises felicity
+RiderWaite,RiderWaite/,RW_W_7.jpg,Wands,7 of Wands,"valor, business negotiation, debate"
+RiderWaite,RiderWaite/,RW_W_6.jpg,Wands,6 of Wands,"great news, triumph"
+RiderWaite,RiderWaite/,RW_W_5.jpg,Wands,5 of Wands,"Imitation, sport,"
+RiderWaite,RiderWaite/,RW_W_4.jpg,Wands,4 of Wands,"country life, harmony, prosperity, peace"
+RiderWaite,RiderWaite/,RW_W_3.jpg,Wands,3 of Wands,"trade, discovery"
+RiderWaite,RiderWaite/,RW_W_2.jpg,Wands,2 of Wands,"riches, fortune, magnificence"
+RiderWaite,RiderWaite/,RW_W_A.jpg,Wands,Ace of Wands,"creation, invention, enterpeise, beginning source"
+RiderWaite,RiderWaite/,RW_C_K.jpg,Cups,King of Cups,"fair an dresponsible man of law, business or divinity (the establishment)"
+RiderWaite,RiderWaite/,RW_C_Q.jpg,Cups,Queen of Cups,"good, fair, honest, devoted, someone who will do service to the querent"
+RiderWaite,RiderWaite/,RW_C_Knight.jpg,Cups,Knight of Cups,"arrival, approach- sometimes that of a messenger, invitation, incitement"
+RiderWaite,RiderWaite/,RW_C_Page.jpg,Cups,Page of Cups,"fair young man, one impelled to render servce and with whom the querent will be well connected, "
+RiderWaite,RiderWaite/,RW_C_10.jpg,Cups,10 of Cups,"contentment, repose of the entire heart"
+RiderWaite,RiderWaite/,RW_C_9.jpg,Cups,9 of Cups,"concord, success, satisfaction"
+RiderWaite,RiderWaite/,RW_C_8.jpg,Cups,8 of Cups,dejection and loss
+RiderWaite,RiderWaite/,RW_C_7.jpg,Cups,7 of Cups,"imagination, contemplation but without lasting attainment"
+RiderWaite,RiderWaite/,RW_C_6.jpg,Cups,6 of Cups,"memories of the past, nostalgia"
+RiderWaite,RiderWaite/,RW_C_5.jpg,Cups,5 of Cups,"loss, but not complete loss, inhertience, transmission"
+RiderWaite,RiderWaite/,RW_C_4.jpg,Cups,4 of Cups,"weariness, disgust, aversion, imaginary vexation"
+RiderWaite,RiderWaite/,RW_C_3.jpg,Cups,3 of Cups,"conculsion of a matter, victory, fufilment"
+RiderWaite,RiderWaite/,RW_C_2.jpg,Cups,2 of Cups,"Love, passion, friendship, sexy times"
+RiderWaite,RiderWaite/,RW_C_A.jpg,Cups,Ace of Cups,"true heart, joy, contentmentabundance, fertility"
+RiderWaite,RiderWaite/,RW_S_K.jpg,Swords,King of Swords,"power, command, authority"
+RiderWaite,RiderWaite/,RW_S_Q.jpg,Swords,Queen of Swords,"widowhood, sterility, separation"
+RiderWaite,RiderWaite/,RW_S_Knight.jpg,Swords,Knight of Swords,"wrath, war, ruin, skill bravery, capacity"
+RiderWaite,RiderWaite/,RW_S_Page.jpg,Swords,Page of Swords,"secret service, spying"
+RiderWaite,RiderWaite/,RW_S_10.jpg,Swords,10 of Swords,"pain, affliction, desolation"
+RiderWaite,RiderWaite/,RW_S_9.jpg,Swords,9 of Swords,"failure, disappointment, dispair"
+RiderWaite,RiderWaite/,RW_S_8.jpg,Swords,8 of Swords,"bad news, censure, sickness"
+RiderWaite,RiderWaite/,RW_S_7.jpg,Swords,7 of Swords,"design, attempt, wish, hope"
+RiderWaite,RiderWaite/,RW_S_6.jpg,Swords,6 of Swords,"journey by water, woute, way"
+RiderWaite,RiderWaite/,RW_S_5.jpg,Swords,5 of Swords,"degredation, destruction, dishonor, reversal of fortune"
+RiderWaite,RiderWaite/,RW_S_4.jpg,Swords,4 of Swords,"vigilence, retreat, solitude"
+RiderWaite,RiderWaite/,RW_S_3.jpg,Swords,3 of Swords,"delay, division, dispersion"
+RiderWaite,RiderWaite/,RW_S_2.jpg,Swords,2 of Swords,Confirmity
+RiderWaite,RiderWaite/,RW_S_A.jpg,Swords,Ace of Swords,Triumph
+RiderWaite,RiderWaite/,RW_P_K.jpg,Pentacles,King of Pentacles,intellectual apptitude
+RiderWaite,RiderWaite/,RW_P_Q.jpg,Pentacles,Queen of Pentacles,"Opulance, generosity"
+RiderWaite,RiderWaite/,RW_P_Knight.jpg,Pentacles,Knight of Pentacles,"serviceableness, utility"
+RiderWaite,RiderWaite/,RW_P_Page.jpg,Pentacles,Page of Pentacles,"study, scholarship, reflection"
+RiderWaite,RiderWaite/,RW_P_10.jpg,Pentacles,10 of Pentacles,"gain, riches, family matters"
+RiderWaite,RiderWaite/,RW_P_9.jpg,Pentacles,9 of Pentacles,"prudence, safety, certitude"
+RiderWaite,RiderWaite/,RW_P_8.jpg,Pentacles,8 of Pentacles,"work, employment, craftsmanship"
+RiderWaite,RiderWaite/,RW_P_7.jpg,Pentacles,7 of Pentacles,"money, business, barter"
+RiderWaite,RiderWaite/,RW_P_6.jpg,Pentacles,6 of Pentacles,"presents, gifts, gratification"
+RiderWaite,RiderWaite/,RW_P_5.jpg,Pentacles,5 of Pentacles,marterial troubles
+RiderWaite,RiderWaite/,RW_P_4.jpg,Pentacles,4 of Pentacles,slinging to that which one has
+RiderWaite,RiderWaite/,RW_P_3.jpg,Pentacles,3 of Pentacles,"nobility, aristocracy, renowned glory"
+RiderWaite,RiderWaite/,RW_P_2.jpg,Pentacles,2 of Pentacles,"happiness, recreation"
+RiderWaite,RiderWaite/,RW_P_A.jpg,Pentacles,Ace of Pentacles,"money, perfect contentment"
+Jung,Jung/,J_Fool.jpg,Trumps,Fool,"the source, subject and object inified"
+Jung,Jung/,J_Magician.jpg,Trumps,Magician,ultimate director in the quest for self.  The male archetype that resides within females
+Jung,Jung/,J_HighPriestess.jpg,Trumps,High Priestess,"keeper of secret knowledge, the female archetype that resides within males"
+Jung,Jung/,J_Empress.jpg,Trumps,Empress,all archetypes of the mother in one
+Jung,Jung/,J_Emperor.jpg,Trumps,Emperor,all archetypes of the father in one
+Jung,Jung/,J_Heirophant.jpg,Trumps,Heirophant,"the father as law giver, the demiurge, organized religeon"
+Jung,Jung/,J_Lovers.jpg,Trumps,Lovers,son as a collector of experience
+Jung,Jung/,J_Chariot.jpg,Trumps,Chariot,the vehicle that carries between levels of conciousness
+Jung,Jung/,J_Strength.jpg,Trumps,Strength,The daughter as collector of experience
+Jung,Jung/,J_Hermit.jpg,Trumps,Hermit,"the teacher and guider of souls, grandfather as teacher"
+Jung,Jung/,J_Fortune.jpg,Trumps,Fortune,the mother as the determiner of experience
+Jung,Jung/,J_Justice.jpg,Trumps,Justice,the mother who punshes and rewards
+Jung,Jung/,J_HangedMan.jpg,Trumps,Hanged Man,"self sacrifices son, as aspect of the perfected self"
+Jung,Jung/,J_Death.jpg,Trumps,Death,mother as gatweway
+Jung,Jung/,J_Temperance.jpg,Trumps,Temperance,control or mitigation through opposites
+Jung,Jung/,J_Devil.jpg,Trumps,Devil,enslavement of conciousness through the illusion of matter
+Jung,Jung/,J_Tower.jpg,Trumps,Tower,father as averager/ protector
+Jung,Jung/,J_Star.jpg,Trumps,Star,"Maiden, the inspiration for the hero"
+Jung,Jung/,J_Moon.jpg,Trumps,Moon,"witcraft, Hecate, the crone"
+Jung,Jung/,J_Sun.jpg,Trumps,Sun,inner child
+Jung,Jung/,J_Judgement.jpg,Trumps,Judgement,"judgement at the end of a journey, the final judgement"
+Jung,Jung/,J_World.jpg,Trumps,World,the masks we use to hide ourselves from the world.
+Jung,Jung/,J_W_K.jpg,Wands,King of Wands,aggressive father
+Jung,Jung/,J_W_Q.jpg,Wands,Queen of Wands,stylish mother
+Jung,Jung/,J_W_Prince.jpg,Wands,Prince of Wands,affectionate son
+Jung,Jung/,J_W_Princess.jpg,Wands,Princess of Wands,clever daughter
+Jung,Jung/,J_W_10.jpg,Wands,10 of Wands,control over others
+Jung,Jung/,J_W_9.jpg,Wands,9 of Wands,anger
+Jung,Jung/,J_W_8.jpg,Wands,8 of Wands,intellectual activity
+Jung,Jung/,J_W_7.jpg,Wands,7 of Wands,passion
+Jung,Jung/,J_W_6.jpg,Wands,6 of Wands,strong leadership
+Jung,Jung/,J_W_5.jpg,Wands,5 of Wands,assertiveness
+Jung,Jung/,J_W_4.jpg,Wands,4 of Wands,success
+Jung,Jung/,J_W_3.jpg,Wands,3 of Wands,fantasy
+Jung,Jung/,J_W_2.jpg,Wands,2 of Wands,invention
+Jung,Jung/,J_W_A.jpg,Wands,Ace of Wands,birth & death
+Jung,Jung/,J_C_K.jpg,Cups,King of Cups,Intellectual Father
+Jung,Jung/,J_C_Q.jpg,Cups,Queen of Cups,Emotional Mother
+Jung,Jung/,J_C_Prince.jpg,Cups,Prince of Cups,charming son
+Jung,Jung/,J_C_Princess.jpg,Cups,Princess of Cups,ambitious daughter
+Jung,Jung/,J_C_10.jpg,Cups,10 of Cups,pain and sorrow
+Jung,Jung/,J_C_9.jpg,Cups,9 of Cups,vacillation
+Jung,Jung/,J_C_8.jpg,Cups,8 of Cups,change
+Jung,Jung/,J_C_7.jpg,Cups,7 of Cups,obstacles
+Jung,Jung/,J_C_6.jpg,Cups,6 of Cups,sympathetic attachment
+Jung,Jung/,J_C_5.jpg,Cups,5 of Cups,troubles
+Jung,Jung/,J_C_4.jpg,Cups,4 of Cups,benevolance & pleasure
+Jung,Jung/,J_C_3.jpg,Cups,3 of Cups,secure enviornment
+Jung,Jung/,J_C_2.jpg,Cups,2 of Cups,adventure
+Jung,Jung/,J_C_A.jpg,Cups,Ace of Cups,change of feelings
+Jung,Jung/,J_S_K.jpg,Swords,King of Swords,romantic father
+Jung,Jung/,J_S_Q.jpg,Swords,Queen of Swords,diplomatic mother
+Jung,Jung/,J_S_Prince.jpg,Swords,Prince of Swords,idealistic son
+Jung,Jung/,J_S_Princess.jpg,Swords,Princess of Swords,controlling daughter
+Jung,Jung/,J_S_10.jpg,Swords,10 of Swords,gain through partnership
+Jung,Jung/,J_S_9.jpg,Swords,9 of Swords,sharing
+Jung,Jung/,J_S_8.jpg,Swords,8 of Swords,intellectual skill
+Jung,Jung/,J_S_7.jpg,Swords,7 of Swords,love
+Jung,Jung/,J_S_6.jpg,Swords,6 of Swords,justice
+Jung,Jung/,J_S_5.jpg,Swords,5 of Swords,rash decision
+Jung,Jung/,J_S_4.jpg,Swords,4 of Swords,imagination
+Jung,Jung/,J_S_3.jpg,Swords,3 of Swords,idealism
+Jung,Jung/,J_S_2.jpg,Swords,2 of Swords,opposition & loss
+Jung,Jung/,J_S_A.jpg,Swords,Ace of Swords,conflict of ideas
+Jung,Jung/,J_P_K.jpg,Pentacles,King of Pentacles,responsiber father
+Jung,Jung/,J_P_Q.jpg,Pentacles,Queen of Pentacles,secretive mother
+Jung,Jung/,J_P_Prince.jpg,Pentacles,Prince of Pentacles,self assured son
+Jung,Jung/,J_P_Princess.jpg,Pentacles,Princess of Pentacles,Isolated daughter
+Jung,Jung/,J_P_10.jpg,Pentacles,10 of Pentacles,isolated power
+Jung,Jung/,J_P_9.jpg,Pentacles,9 of Pentacles,selfishness
+Jung,Jung/,J_P_8.jpg,Pentacles,8 of Pentacles,manipullation & Secrets
+Jung,Jung/,J_P_7.jpg,Pentacles,7 of Pentacles,gain through commerce
+Jung,Jung/,J_P_6.jpg,Pentacles,6 of Pentacles,gain of wealth and power through hard work
+Jung,Jung/,J_P_5.jpg,Pentacles,5 of Pentacles,responsible authority
+Jung,Jung/,J_P_4.jpg,Pentacles,4 of Pentacles,wealth
+Jung,Jung/,J_P_3.jpg,Pentacles,3 of Pentacles,response to conflict
+Jung,Jung/,J_P_2.jpg,Pentacles,2 of Pentacles,reorganization
+Jung,Jung/,J_P_A.jpg,Pentacles,Ace of Pentacles,security desytoyed
+Toth,Toth/,T_Fool.jpg,Trumps,Fool,"Transcendance, Action without thought"
+Toth,Toth/,T_Mage.jpg,Trumps,Mage,"Skill, wisdon, but also the interference of intelligence with the matter at hand"
+Toth,Toth/,T_HighPriestess.jpg,Trumps,High Priestess,pure graciousness enters the matter
+Toth,Toth/,T_Empress.jpg,Trumps,Empress,"Love, beauty, graciousness, gentleness"
+Toth,Toth/,T_Emperor.jpg,Trumps,Emperor,"War, conquest, victory, ambition, stubborness"
+Toth,Toth/,T_Heirophant.jpg,Trumps,Heirophant,"stubborn strength, help from superiors, organization, peace"
+Toth,Toth/,T_Lovers.jpg,Trumps,Lovers,"Openness to inspiration, intuition, thoughtfulness divorced from practical consideration"
+Toth,Toth/,T_Chariot.jpg,Trumps,Chariot,"violence in maintaining traditional ideas, ruthlessness, lust for destruction"
+Toth,Toth/,T_Adjustment.jpg,Trumps,Adjustment,"suspension of action pending decision, the act of adjustment, treaties"
+Toth,Toth/,T_Hermit.jpg,Trumps,Hermit,"Illumination from within, retirement from participation in current events"
+Toth,Toth/,T_Fortune.jpg,Trumps,Fortune,change of fortune
+Toth,Toth/,T_Lust.jpg,Trumps,Lust,"passion, energy and action, the use of magickal power"
+Toth,Toth/,T_HangedMan.jpg,Trumps,Hanged Man,"Enforced sacrifice, punishment, defeat"
+Toth,Toth/,T_Death.jpg,Trumps,Death,"transformation, change, logical but perhaps unexpected development of existing conditions"
+Toth,Toth/,T_Art.jpg,Trumps,Art,"combination of forces, action based on accurate calculation, escape"
+Toth,Toth/,T_Devil.jpg,Trumps,Devil,"blind impulse, temptation, aching discontent, secret plan about to be executed"
+Toth,Toth/,T_Tower.jpg,Trumps,Tower,"combat, ruin, destruction of plans, suden death, escape from prison"
+Toth,Toth/,T_Star.jpg,Trumps,Star,"unexpected help, hope, realization of possibilities, dreaminess"
+Toth,Toth/,T_Moon.jpg,Trumps,Moon,"deception, bewilderment, madness, brink of important change, darkest hour before dawn"
+Toth,Toth/,T_Sun.jpg,Trumps,Sun,"glort, frankness, arrogance, truth"
+Toth,Toth/,T_Aeon.jpg,Trumps,Aeon,taking a definitive step
+Toth,Toth/,T_Universe.jpg,Trumps,Universe,"the matter of the question itself, synthesis"
+Toth,Toth/,T_W_Knight.jpg,Wands,Knight of wands,"Active, generous, fierce, can also be evil minded, cruel, bigoted, brutal"
+Toth,Toth/,T_W_Q.jpg,Wands,Queen of Wands,"Adaptability, steady rule, power of command, kind and generous when not opposed, but apt to tunr against others without cause, obstinate and revengeful"
+Toth,Toth/,T_W_Prince.jpg,Wands,Price of Wands,"swift, strong, hasty, violent but just and generous. Can be cruel and intolerant"
+Toth,Toth/,T_W_Princess.jpg,Wands,Princess of Wands,"Brilliance, courage, sudden in anger or love, diserous of power, can be superficial, cruel and domineering"
+Toth,Toth/,T_W_10.jpg,Wands,10 of Wands,cruel and overbearing force applied only to material and selfish ends
+Toth,Toth/,T_W_9.jpg,Wands,9 of Wands,"assured recovery from illness, tremendous steady force that cannot be shaken"
+Toth,Toth/,T_W_8.jpg,Wands,8 of Wands,"too much force applied to suddenly, violent but not lasting"
+Toth,Toth/,T_W_7.jpg,Wands,7 of Wands,possible victory depending on the courage excercised
+Toth,Toth/,T_W_6.jpg,Wands,6 of Wands,"Victory after strife, pleasure gained through labor"
+Toth,Toth/,T_W_5.jpg,Wands,5 of Wands,Quarreling and fighting
+Toth,Toth/,T_W_4.jpg,Wands,4 of Wands,perfection or completion of a thing built up with trouble and labor
+Toth,Toth/,T_W_3.jpg,Wands,3 of Wands,"pride, arrogance, self assertion"
+Toth,Toth/,T_W_2.jpg,Wands,2 of Wands,"Influence over others, authority, power, dominion"
+Toth,Toth/,T_W_A.jpg,Wands,Ace of Wands,Natural Force (as opposed to invoked)
+Toth,Toth/,T_C_Knight.jpg,Cups,Knight of Cups,"graceful, poetic, but also sensual indolent and untruthful"
+Toth,Toth/,T_C_Q.jpg,Cups,Queen of Cups,"good natured, imaginitive and kind but not willing to take much trouble for another.  Very much affected by influences of others"
+Toth,Toth/,T_C_Prince.jpg,Cups,Price of Cups,"subtle, violent, crafyt and artistic.  Powerful for good or evil, but more attracted to evil if allied with apparent wisdom or power."
+Toth,Toth/,T_C_Princess.jpg,Cups,Princess of Cups,"sweet, poetic, gentle and kind.  Can be selfish, lazy and luxurious"
+Toth,Toth/,T_C_10.jpg,Cups,10 of Cups,permanent and lasting success and happiness
+Toth,Toth/,T_C_9.jpg,Cups,9 of Cups,"complete success, pleasure and happiness, wished fufilled"
+Toth,Toth/,T_C_8.jpg,Cups,8 of Cups,"success abandoned, decline of interest"
+Toth,Toth/,T_C_7.jpg,Cups,7 of Cups,"slight success at outset, but not ultimately attained, promises unfufilled"
+Toth,Toth/,T_C_6.jpg,Cups,6 of Cups,commencement (only) of steady increase in success or enjoyment
+Toth,Toth/,T_C_5.jpg,Cups,5 of Cups,"disappointment in love, marrige broken off, loss of friendship, unkindness of a friend"
+Toth,Toth/,T_C_4.jpg,Cups,4 of Cups,"receiving pleasure or kindness (not the sexy kind), but with underlying discomfort of drawbacks"
+Toth,Toth/,T_C_3.jpg,Cups,3 of Cups,"abundance, hospitality, passive success,"
+Toth,Toth/,T_C_2.jpg,Cups,2 of Cups,"marrige, love, sexy times, pleasure"
+Toth,Toth/,T_C_A.jpg,Cups,Ace of Cups,"fertility, productivity, beatuy, pleasure"
+Toth,Toth/,T_S_Knight.jpg,Swords,Knight of Swords,
+Toth,Toth/,T_S_Q.jpg,Swords,Queen of Swords,
+Toth,Toth/,T_S_Prince.jpg,Swords,Price of Swords,
+Toth,Toth/,T_S_Princess.jpg,Swords,Princess of Swords,
+Toth,Toth/,T_S_10.jpg,Swords,10 of Swords,
+Toth,Toth/,T_S_9.jpg,Swords,9 of Swords,
+Toth,Toth/,T_S_8.jpg,Swords,8 of Swords,
+Toth,Toth/,T_S_7.jpg,Swords,7 of Swords,
+Toth,Toth/,T_S_6.jpg,Swords,6 of Swords,
+Toth,Toth/,T_S_5.jpg,Swords,5 of Swords,
+Toth,Toth/,T_S_4.jpg,Swords,4 of Swords,
+Toth,Toth/,T_S_3.jpg,Swords,3 of Swords,
+Toth,Toth/,T_S_2.jpg,Swords,2 of Swords,
+Toth,Toth/,T_S_A.jpg,Swords,Ace of Swords,
+Toth,Toth/,T_D_Knight.jpg,Pentacles,Knight of Swords,
+Toth,Toth/,T_D_Q.jpg,Pentacles,Queen of Pentacles,
+Toth,Toth/,T_D_Prince.jpg,Pentacles,Price of Swords,
+Toth,Toth/,T_D_Princess.jpg,Pentacles,Princess of Swords,
+Toth,Toth/,T_D_10.jpg,Pentacles,10 of Pentacles,
+Toth,Toth/,T_D_9.jpg,Pentacles,9 of Pentacles,
+Toth,Toth/,T_D_8.jpg,Pentacles,8 of Pentacles,
+Toth,Toth/,T_D_7.jpg,Pentacles,7 of Pentacles,
+Toth,Toth/,T_D_6.jpg,Pentacles,6 of Pentacles,
+Toth,Toth/,T_D_5.jpg,Pentacles,5 of Pentacles,
+Toth,Toth/,T_D_4.jpg,Pentacles,4 of Pentacles,
+Toth,Toth/,T_D_3.jpg,Pentacles,3 of Pentacles,
+Toth,Toth/,T_D_2.jpg,Pentacles,2 of Pentacles,
+Toth,Toth/,T_D_A.jpg,Pentacles,Ace of Pentacles,
+Chaos,Chaos/,C_C_K.jpg,Clubs,King of Clubs,"The Magician; Skill, transformation"
+Chaos,Chaos/,C_C_Q.jpg,Clubs,Queen of clubs,"Confidence, strength"
+Chaos,Chaos/,C_C_J.jpg,Clubs,Jack of Clubs,enthusiastic pursuit of a new venture
+Chaos,Chaos/,C_C_10.jpg,Clubs,10 of Clubs,"Clubs, a Responsibility or burden"
+Chaos,Chaos/,C_C_9.jpg,Clubs,9 of Clubs,"the Sun; Clarity, simplicity, new life"
+Chaos,Chaos/,C_C_8.jpg,Clubs,8 of Clubs,"Repetition, Swift movement to create stability"
+Chaos,Chaos/,C_C_7.jpg,Clubs,7 of Clubs,"Vigilence, a struggle to stay agead"
+Chaos,Chaos/,C_C_6.jpg,Clubs,6 of Clubs,A relevation or drastic shift in perspective
+Chaos,Chaos/,C_C_5.jpg,Clubs,5 of Clubs,"Temptation, attachment, control"
+Chaos,Chaos/,C_C_4.jpg,Clubs,4 of Clubs,"solid foundations, stability. Celebration"
+Chaos,Chaos/,C_C_3.jpg,Clubs,3 of Clubs,"Efforts rewarded, success in business"
+Chaos,Chaos/,C_C_2.jpg,Clubs,2 of Clubs,A passionate conversation or debate
+Chaos,Chaos/,C_C_A.jpg,Clubs,Ace of Clubs,"Strength, Overcoming Desire, Building Trust, Courage"
+Chaos,Chaos/,C_H_K.jpg,Hearts,King of Hearts,Sensitivity and creativity channeled into professional success
+Chaos,Chaos/,C_H_Q.jpg,Hearts,Queen of Hearts,"Fertility, responsibility to nature"
+Chaos,Chaos/,C_H_J.jpg,Hearts,Jack of Hearts,"unconciousness thoughts coming to the surface, contemplation"
+Chaos,Chaos/,C_H_10.jpg,Hearts,10 of Hearts,"the Wheel of Fortune, plans set in motion"
+Chaos,Chaos/,C_H_9.jpg,Hearts,9 of Hearts,"selfishness, excess"
+Chaos,Chaos/,C_H_8.jpg,Hearts,8 of Hearts,"the Moon; subtlety, mystery, instinct"
+Chaos,Chaos/,C_H_7.jpg,Hearts,7 of Hearts,"Secrets, imagination, new feelings"
+Chaos,Chaos/,C_H_6.jpg,Hearts,6 of Hearts,"the Lovers; love, beauty, union"
+Chaos,Chaos/,C_H_5.jpg,Hearts,5 of Hearts,"learning from mistakes, moving forward"
+Chaos,Chaos/,C_H_4.jpg,Hearts,4 of Hearts,"hesitation to try something new, fear of past mistakes"
+Chaos,Chaos/,C_H_3.jpg,Hearts,3 of Hearts,a party or celebration
+Chaos,Chaos/,C_H_2.jpg,Hearts,2 of Hearts,Temperance; balance moderation
+Chaos,Chaos/,C_H_A.jpg,Hearts,Ace of Hearts,"Emotional, spiritual or creative flow"
+Chaos,Chaos/,C_S_K.jpg,Swords,King of Swords,"the Emperor; wisdom, experience, authority"
+Chaos,Chaos/,C_S_Q.jpg,Swords,Queen of Swords,"strategy, ambition, intelligence"
+Chaos,Chaos/,C_S_J.jpg,Swords,Jack of Swords,"caution, potential"
+Chaos,Chaos/,C_S_10.jpg,Swords,10 of Swords,"Judgement, waking up, an announcement"
+Chaos,Chaos/,C_S_9.jpg,Swords,9 of Swords,"the thoughts that keep a person awake, a struggle to make sense of events"
+Chaos,Chaos/,C_S_8.jpg,Swords,8 of Swords,"Justice, reason, fairness"
+Chaos,Chaos/,C_S_7.jpg,Swords,7 of Swords,"the Chariot, a triumpt, breakthrough, an inventive solution"
+Chaos,Chaos/,C_S_6.jpg,Swords,6 of Swords,"leaving worries behind, a transition"
+Chaos,Chaos/,C_S_5.jpg,Swords,5 of Swords,"possible disappointment, a difficult oponent"
+Chaos,Chaos/,C_S_4.jpg,Swords,4 of Swords,Death; the cycle of creation and destruction and renewal
+Chaos,Chaos/,C_S_3.jpg,Swords,3 of Swords,"moving beyond sorrow, understanding ones own feelings"
+Chaos,Chaos/,C_S_2.jpg,Swords,2 of Swords,"the Hanged Man; peace through self discipline, freedom from distraction"
+Chaos,Chaos/,C_S_A.jpg,Swords,Ace of Swords,"Focus, Clarity"
+Chaos,Chaos/,C_D_K.jpg,Diamonds,King of Diamonds,"Generosity, happiness found in nature or spirituality"
+Chaos,Chaos/,C_D_Q.jpg,Diamonds,Queen of Diamonds,"a Bond between the internal and external, mastery, not control of nature"
+Chaos,Chaos/,C_D_J.jpg,Diamonds,Jack of Diamonds,"Fascination, wonder, scholarship"
+Chaos,Chaos/,C_D_10.jpg,Diamonds,10 of Diamonds,"A choice of security oer risk, enjoyment of wealth"
+Chaos,Chaos/,C_D_9.jpg,Diamonds,9 of Diamonds,"the Hermit; Sacrifice without regret, self care"
+Chaos,Chaos/,C_D_8.jpg,Diamonds,8 of Diamonds,comfirt achieved through work and perisstance
+Chaos,Chaos/,C_D_7.jpg,Diamonds,7 of Diamonds,"The star; Hope, healing"
+Chaos,Chaos/,C_D_6.jpg,Diamonds,6 of Diamonds,"charity, harmony, cooperation"
+Chaos,Chaos/,C_D_5.jpg,Diamonds,5 of Diamonds,Heirophant; traditional spiritual authority deception
+Chaos,Chaos/,C_D_4.jpg,Diamonds,4 of Diamonds,"hesitation to help others, preoccupation with material posessions"
+Chaos,Chaos/,C_D_3.jpg,Diamonds,3 of Diamonds,"craftsmanship, successful collaboration, admiration"
+Chaos,Chaos/,C_D_2.jpg,Diamonds,2 of Diamonds,"The High Priestess; juggling, multi-tasking"
+Chaos,Chaos/,C_D_A.jpg,Diamonds,Ace of Diamonds,"the world, Peace, travel, openmindedness"
+Chaos,Chaos/,C_Fool.jpg,Trumps,Fool,"Freedom, Fearlessness"
