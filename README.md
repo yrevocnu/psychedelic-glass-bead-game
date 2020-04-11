@@ -14,3 +14,7 @@
 1. `!new` <-- starts new PGBG session
 1. `!draw` <-- lists decks
 1. `!draw {{deck}}` <-- draws a card in a deck
+
+## Web
+1. `cd web`
+1. `yarn dev`
