@@ -4,7 +4,8 @@ const app = new App({
 	target: document.body,
 	props: {
 		showReset: false,
-		card: undefined
+		card: undefined,
+		cards: []
 	}
 });
 

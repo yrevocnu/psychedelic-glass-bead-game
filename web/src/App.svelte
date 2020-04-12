@@ -3,13 +3,18 @@
 
 	export let showReset;
 	export let card;
+	export let cards = [];
 	export let decks = [];
 
 	onMount(async () => {
 		const res = await fetch('http://localhost:8000/decks');
 		decks = await res.json();
 
-		console.log('hi', showReset);
+		setInterval(async () => {
+			const gameRes = await fetch('http://localhost:8000/game');
+			const game = await gameRes.json();
+			cards = game.cards;
+		}, 1000);
 	});
 
 	async function draw(deck) {
@@ -22,6 +27,7 @@
 		await fetch(`http://localhost:8000/game`, { method: 'POST'});
 		showReset = true;
 		card = undefined;
+		cards = [];
 		setTimeout(() => {
 			showReset = false;
 		}, 3000);
@@ -46,6 +52,14 @@
 	{/each}
 	</div>
 
+	<div class="cards">
+		{#each cards as card}
+			<ul>
+				<li><img src="http://localhost:8000/decks/{card.deck.name.toLowerCase()}/{card.image}" alt={card.description}/>{card.name}</li>
+			</ul>
+		{/each}
+	</div>
+
 	<div class="admin">
 		{#if showReset}
 			<p>Game has been reset!</p>
@@ -60,6 +74,14 @@
 		padding: 1em;
 		max-width: 50%;
 		margin: 0 auto;
+	}
+	.cards ul {
+		list-style: none;
+	}
+	.cards img {
+		width: 20px;
+		vertical-align: middle;
+		margin-right: 5px;
 	}
 	.decks {
 		display: flex;
