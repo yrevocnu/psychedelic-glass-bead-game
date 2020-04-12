@@ -2,18 +2,22 @@ import { execSync } from 'child_process';
 
 const decks = [{
   path: 'assets/decks/toth',
-  name: 'Toth'
+  name: 'Toth',
+  description: 'Beautiful, unsettling, powerful'
 }, {
   path: 'assets/decks/chaos',
-  name: 'Chaos'
+  name: 'Chaos',
+  description: 'Graphically stunning, gentle'
 }, {
   path: 'assets/decks/riderwaite',
-  name: 'RiderWaite'
+  name: 'RiderWaite',
+  description: 'Classical, fairy-tale-like'
 }, {
   path: 'assets/decks/jung',
-  name: 'Jung'
+  name: 'Jung',
+  description: 'Deeply psychological'
 }];
 
 for (const deck of decks) {
-  execSync(`yarn seed:deck -p ${deck.path} -n ${deck.name}`);
+  execSync(`yarn seed:deck -p ${deck.path} -n ${deck.name} -d "${deck.description}"`);
 }

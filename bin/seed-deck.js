@@ -9,13 +9,14 @@ const { program } = commander;
 program
   .option('-p, --path <string>', 'path to assets')
   .option('-n, --name <string>', 'deck name')
+  .option('-d, --description <string>', 'deck description')
   .parse(process.argv);
 
 const files = fs.readdirSync(program.path);
 
 (async () => {
   const cards = await csv().fromFile('./assets/decks/cards.csv');
-  const deck = await Deck.findOneAndUpdate({ name: program.name }, {}, { new: true, upsert: true, returnNewDocument: true }).lean();
+  const deck = await Deck.findOneAndUpdate({ name: program.name }, { description: program.description }, { new: true, upsert: true, returnNewDocument: true }).lean();
 
   if (!deck) {
     process.exit(1);
