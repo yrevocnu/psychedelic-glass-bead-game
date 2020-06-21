@@ -34,37 +34,39 @@ client.on('message', async message => {
   const opt = match[2];
 
   switch(command) {
-    case('new'):
-      const { body: game } = await request(app).post('/game');
-      const newResponse = `Started new game: ${game._id}`;
-      log.debug(`PGBG: ${newResponse}`);
-      return message.channel.send(newResponse);
-    case('draw'):
-      const decks = await Deck.find({}).lean();
-      const deckList = `Valid deck names are: **${decks.map(deck => deck.name).join(', ')}**`;
-      if (!opt) {
-        return message.reply(`you must provide a deck name, e.g. \`!draw Chaos\`. ${deckList}`)
-      }
+  case('new'): {
+    const { body: game } = await request(app).post('/game');
+    const newResponse = `Started new game: ${game._id}`;
+    log.debug(`PGBG: ${newResponse}`);
+    return message.channel.send(newResponse);
+  }
+  case('draw'): {
+    const decks = await Deck.find({}).lean();
+    const deckList = `Valid deck names are: **${decks.map(deck => deck.name).join(', ')}**`;
+    if (!opt) {
+      return message.reply(`you must provide a deck name, e.g. \`!draw Chaos\`. ${deckList}`);
+    }
       
-      const { body: card } = await request(app).post(`/game/draw?deck=${opt}`);
+    const { body: card } = await request(app).post(`/game/draw?deck=${opt}`);
       
-      if (!card || !card.image) {
-        return message.reply(`deck "${opt}" does not exist! ${deckList}`);
-      }
+    if (!card || !card.image) {
+      return message.reply(`deck "${opt}" does not exist! ${deckList}`);
+    }
       
-      const drawResponse = `drew ${card.image}`;
-      log.debug(`PGBG: ${message.author.username} ${drawResponse}`);
+    const drawResponse = `drew ${card.image}`;
+    log.debug(`PGBG: ${message.author.username} ${drawResponse}`);
       
-      const embed = new Discord.MessageEmbed()
-        .setTitle(card.name)
-        .setDescription(card.description)
-        .setFooter(card.suit)
-        .attachFiles([`./assets/decks/${opt.toLowerCase()}/${card.image}`])
-        .setImage(`attachment://${card.image}`);
+    const embed = new Discord.MessageEmbed()
+      .setTitle(card.name)
+      .setDescription(card.description)
+      .setFooter(card.suit)
+      .attachFiles([`./assets/decks/${opt.toLowerCase()}/${card.image}`])
+      .setImage(`attachment://${card.image}`);
 
-      return message.reply(embed);
-    default:
-      return;
+    return message.reply(embed);
+  }
+  default:
+    return;
   }
 });
 

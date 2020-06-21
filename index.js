@@ -1,6 +1,6 @@
 import env from 'dotenv';
-import * as discord from './lib/services/discord.js';
-import * as app from './lib/app.js';
+import * as discord from './app/services/discord.js';
+import * as app from './app/app.js';
 
 env.config();
 

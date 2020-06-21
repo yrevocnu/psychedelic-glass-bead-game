@@ -41,7 +41,11 @@ export async function draw(req, res) {
     return res.send(`Deck ${deckName} does not exist!`);
   }
 
-  const game = await Game.findOne({}).lean(); 
+  let game = await Game.findOne({}).lean();
+  
+  if (!game) {
+    game = await Game.create({});
+  }
 
   const blacklist = game.cards;
 
