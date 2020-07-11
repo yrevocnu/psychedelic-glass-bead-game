@@ -1,5 +1,5 @@
 {
-  "name": "mousse-truffee",
+  "name": "psychedelic-glass-bead-game",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,17 +8,16 @@
     "node": "14.4.0"
   },
   "scripts": {
-    "debug": "nodemon --trace-warnings index.js",
+    "debug": "NODE_ENV=development nodemon --require dotenv/config --trace-warnings index.js",
     "seed:deck": "node ./bin/seed-deck.js",
     "seed:db": "node ./bin/seed-db.js",
-    "start": "node index.js",
+    "start": "NODE_ENV=production node --require dotenv/config index.js",
     "lint": "yarn eslint"
   },
   "pre-commit": [
     "lint"
   ],
   "dependencies": {
-    "@discordjs/opus": "0.3.2",
     "commander": "5.1.0",
     "cors": "2.8.5",
     "csvtojson": "2.0.10",
@@ -26,16 +25,16 @@
     "dotenv": "8.2.0",
     "express": "4.17.1",
     "global": "4.4.0",
-    "mongoose": "5.9.19",
+    "moment": "2.27.0",
+    "mongoose": "5.9.23",
     "npm-check-updates": "7.0.1",
     "pino": "6.3.2",
-    "pino-pretty": "4.0.0",
+    "pino-pretty": "4.0.1",
     "supertest": "4.0.2"
   },
   "devDependencies": {
-    "eslint": "7.3.0",
+    "eslint": "7.4.0",
     "nodemon": "2.0.4",
-    "pre-commit": "1.2.2",
-    "prettier": "2.0.5"
+    "pre-commit": "1.2.2"
   }
 }
