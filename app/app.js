@@ -5,7 +5,7 @@ import * as game from './routes/game.js';
 import * as decks from './routes/decks.js';
 
 const app = express();
-const port = process.env.PORT || 8000;
+export const port = process.env.PORT || 8000;
 
 app.use(cors());
 app.use(express.static('assets'));

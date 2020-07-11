@@ -3,6 +3,9 @@ import log from '../log.js';
 import request from 'supertest';
 import app from '../app.js';
 import Deck from '../models/Deck.js';
+import User from '../models/User.js';
+import Action from '../models/Action.js';
+import Game from '../models/Game.js';
 
 const WNOW_CHANNEL_ID = '698336752796041287';
 
@@ -62,6 +65,15 @@ client.on('message', async message => {
       .setFooter(card.suit)
       .attachFiles([`./assets/decks/${opt.toLowerCase()}/${card.image}`])
       .setImage(`attachment://${card.image}`);
+
+    const [user, game ] = await Promise.all([
+      User.upsert({ 'auth.discord.id': message.author.id }, {
+        'auth.discord.username': message.author.username
+      }),
+      Game.findOne().select('_id').lean()
+    ]);
+
+    await Action.draw({ user, card, game });
 
     return message.reply(embed);
   }
