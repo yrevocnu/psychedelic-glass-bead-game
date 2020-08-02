@@ -5,4 +5,10 @@ const schema = new mongoose.Schema({
   description: String
 }, { timestamps: true });
 
-export default mongoose.model('Deck', schema);
+schema.statics.list = () => {
+  return Deck.find({}).select('name description').lean();
+};
+
+const Deck = mongoose.model('Deck', schema);
+
+export default Deck;

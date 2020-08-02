@@ -12,7 +12,7 @@ let decks;
 export default async function draw(message, opt) {
 
   if (!decks) {
-    decks = await Deck.find({}).lean();
+    decks = await Deck.list();
   }
   
   const deckNames = decks.map(deck => deck.name);

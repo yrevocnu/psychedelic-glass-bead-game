@@ -2,10 +2,12 @@ import Discord from 'discord.js';
 import log from '../../log.js';
 import newGame from './newGame.js';
 import draw from './draw.js';
+import decks from './decks.js';
 import history from './history.js';
 
 const HELP_MESSAGE = `the available commands are:
 \`!new\` - start a new game
+\`!decks\` - list available decks
 \`!draw {deck}\` - draw a card
 \`!history\` - list the cards drawn this game
 \`!history {username}\` - list the cards someone has drawn (multi-game)
@@ -25,6 +27,7 @@ client.on('message', async message => {
 
   switch(command) {
     case('new'): return newGame(message, opt);
+    case('decks'): return decks(message, opt);
     case('draw'): return draw(message, opt);
     case('history'): return history(message, opt);
     case('help'): return message.reply(HELP_MESSAGE);
