@@ -16,9 +16,9 @@ const HELP_MESSAGE = `the available commands are:
 const client = new Discord.Client();
 
 client.on('message', async message => {
-  const match = /!(\w+) ?(.*)?/.exec(message.content);
+  const match = /^!(\w+) ?(.*)?/.exec(message.content);
 
-  if (!match) {
+  if (!match || message.author.bot) {
     return;
   }
 
