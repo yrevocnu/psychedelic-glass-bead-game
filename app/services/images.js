@@ -11,7 +11,7 @@ export async function draw(path, rotate) {
     ctx.save();
     ctx.translate(canvas.width / 2, canvas.height / 2);
     ctx.rotate(rotate * Math.PI / 180);
-    ctx.drawImage(img, -img.width / 2, -img.width / 2);
+    ctx.drawImage(img, -img.width / 2, -img.height / 2);
     ctx.restore();
   } else {
     ctx.drawImage(img, 0, 0, img.width, img.height);
