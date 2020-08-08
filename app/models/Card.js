@@ -6,6 +6,7 @@ const schema = new mongoose.Schema({
   name: String,
   description: String,
   image: String,
+  reverse: String,
   suit: String,
   deck: {
     type: ObjectId, 

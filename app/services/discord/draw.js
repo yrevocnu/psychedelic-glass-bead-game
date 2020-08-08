@@ -6,6 +6,7 @@ import Deck from '../../models/Deck.js';
 import User from '../../models/User.js';
 import Action from '../../models/Action.js';
 import Game from '../../models/Game.js';
+import * as images from '../../services/images.js';
 
 let decks;
 
@@ -28,22 +29,32 @@ export default async function draw(message, opt) {
 
   // draw a card
   let card;
+  let reversed = false;
   
   try {
     const response = await request(app).post(`/game/draw?deck=${opt}`).expect(200);
+
     card = response.body;
+
+    if (card.reverse && Math.random() < 0.5) {
+      reversed = true;
+      card.name += ' (Reversed)';
+      card.description = card.reverse;
+    }
   } catch (err) {
-    return message.reply('Could not draw a card! Try starting a new game with `!new`');
+    return message.reply('Could not draw a card! Try selecting another deck or starting a new game with `!new`');
   }
 
   log.debug(`PGBG: ${message.author.username} drew the ${card.name} from ${opt} - ${card.image}`);
     
   // build the message
+  const image = await images.draw(`./assets/decks/${opt.toLowerCase()}/${card.image}`, reversed ? 180 : 0);
+  const attachment = new Discord.MessageAttachment(image, card.image);
   const embed = new Discord.MessageEmbed()
     .setTitle(card.name)
     .setDescription(card.description)
     .setFooter(card.suit)
-    .attachFiles([`./assets/decks/${opt.toLowerCase()}/${card.image}`])
+    .attachFiles([attachment])
     .setImage(`attachment://${card.image}`);
 
   // ... and reply

@@ -57,7 +57,7 @@ export async function draw(req, res) {
   const card = cards[0];
 
   if (!card) {
-    res.status = 400;
+    res.statusCode = 400;
     return res.send('There are no more cards to draw!');
   }
 
