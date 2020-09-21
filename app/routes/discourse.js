@@ -22,7 +22,7 @@ export async function links(req, res, next) {
     .filter(Boolean)
     .slice(0, 10);
 
-  const previews = await Promise.all(links.map(async link => {
+  const previews = (await Promise.all(links.map(async link => {
     if (cache[link]) {
       return cache[link];
     }
@@ -32,17 +32,24 @@ export async function links(req, res, next) {
 
     const titleTag = $('head title').text();
     const titleMeta = $('head meta[property="og:title"]').attr('content');
-    const title = titleMeta || titleTag;
+    const titleSiteMeta = $('head meta[property="og:site_name"]').attr('content');
+    const title = titleMeta || titleTag || titleSiteMeta;
+    
+    if (!title) {
+      return;
+    }
 
     const descriptionMeta = $('head meta[property="og:description"]').attr('content');
-    const descriptionTag = $('head meta[property="description"]').text();
+    const descriptionTag = $('head meta[name="description"]').attr('content');
     const description = descriptionMeta ? descriptionMeta : descriptionTag;
 
-    const image = $('meta[property="og:image"]').attr('content');
+    const imageMeta = $('head meta[property="og:image"]').attr('content');
+    const imageFavicon = $('head link[rel*="icon"]').attr('href');
+    const image = imageMeta || imageFavicon;
 
     cache[link] = { title, description, image, url: link };
     return cache[link];
-  }));
+  }))).filter(Boolean);
 
   res.json(previews);
 }
