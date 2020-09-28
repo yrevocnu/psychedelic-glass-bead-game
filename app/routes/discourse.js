@@ -47,7 +47,19 @@ export async function links(req, res, next) {
 
     const imageMeta = $('head meta[property="og:image"]').attr('content');
     const imageFavicon = $('head link[rel*="icon"]').attr('href');
-    const image = imageMeta || imageFavicon;
+    let image = imageMeta || imageFavicon;
+
+    if (image && !image.startsWith('http')) {
+      const relativePath = image;
+      const url = new URL(link);
+      const protocol = url.protocol;
+      const hostname = url.hostname;
+      let basePath = `${protocol}//${hostname}`;
+      if (!image.startsWith('/')) {
+        basePath += '/';
+      }
+      image = basePath + relativePath;
+    }
 
     cache[link] = { title, description, image, url: link };
     return cache[link];
