@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import got from 'got';
 import cheerio from 'cheerio';
 
@@ -15,12 +16,13 @@ export async function links(req, res, next) {
 
   const posts = response.latest_posts;
 
-  const links = posts
+  let links = posts
     .sort((a, b) => b.score - a.score)
     .map(post => post.raw.match(/(https?:\/\/[^\s)]+)/g))
     .flat()
-    .filter(Boolean)
-    .slice(0, 10);
+    .filter(Boolean);
+
+  links = _.uniqBy(links, link => (new URL(link)).hostname).slice(0, 10);
 
   const previews = (await Promise.all(links.map(async link => {
     if (cache[link]) {
