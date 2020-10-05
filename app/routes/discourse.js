@@ -29,7 +29,15 @@ export async function links(req, res, next) {
       return cache[link];
     }
 
-    const { body } = await got(link);
+    let body;
+    try {
+      const response = await got(link);
+      body = response.body;
+    } catch (err) {
+      console.log(`${err.code}: ${link} - ${err.message}`);
+      return;
+    }
+
     const $ = cheerio.load(body);
 
     const titleTag = $('head title').text();
