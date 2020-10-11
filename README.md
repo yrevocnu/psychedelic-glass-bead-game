@@ -4,7 +4,7 @@
 1. [Install Yarn](https://classic.yarnpkg.com/en/docs/install)
 1. [Install Mongo Community Edition](https://docs.mongodb.com/manual/installation/)
 1. Move `.env-sample` to `.env` and replace `TOKEN` (ask @benheller)
-1. `nvm use` <-- select node version
+1. `nvm install` <-- select node version
 1. `yarn install` <-- install deps
 1. `yarn seed:db` <-- seed db
 1. `yarn debug` <-- run app

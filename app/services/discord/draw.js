@@ -60,7 +60,7 @@ export default async function draw(message, opt) {
   // ... and reply
   message.reply(embed);
 
-  // discourse lets us know what user drew the card, so we create an action to track it
+  // discord lets us know what user drew the card, so we create an action to track it
   const [user, game ] = await Promise.all([
     User.upsert({ 'auth.discord.id': message.author.id }, {
       'auth.discord.username': message.author.username
