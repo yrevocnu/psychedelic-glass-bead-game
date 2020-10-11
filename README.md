@@ -14,3 +14,7 @@
 1. `!new` <-- starts new PGBG session
 1. `!draw` <-- lists decks
 1. `!draw {{deck}}` <-- draws a card in a deck
+
+## MongoDB
+
+1. There are scripts for reseeding the database. Be careful not to do this with the production DB! (even if you have the .env for it)
