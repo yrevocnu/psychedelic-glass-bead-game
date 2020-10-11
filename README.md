@@ -9,6 +9,12 @@
 1. `yarn seed:db` <-- seed db
 1. `yarn debug` <-- run app
 
+## Env
+
+`.env` fields:
+
+ * `TOKEN`: Discord token
+
 ## Commands
 
 1. `!new` <-- starts new PGBG session
