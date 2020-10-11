@@ -18,3 +18,11 @@
 ## MongoDB
 
 1. There are scripts for reseeding the database. Be careful not to do this with the production DB! (even if you have the .env for it)
+
+## Cards
+
+The card data is is `assets/decks`.
+
+`cards.csv` has all the card data with its spellings.
+
+The directories contain the images of the cards. (Referenced by `cards.csv`)
