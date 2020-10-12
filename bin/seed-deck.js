@@ -1,7 +1,7 @@
 import commander from 'commander';
 import fs from 'fs';
-import Deck from '../lib/models/Deck';
-import Card from '../lib/models/Card';
+import Deck from '../app/models/Deck.js';
+import Card from '../app/models/Card.js';
 import csv from 'csvtojson';
 
 const { program } = commander;

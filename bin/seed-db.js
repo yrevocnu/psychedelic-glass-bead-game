@@ -1,4 +1,4 @@
-import { execSync } from 'child_process';
+import { exec } from 'child_process';
 
 const decks = [{
   path: 'assets/decks/toth',
@@ -19,5 +19,5 @@ const decks = [{
 }];
 
 for (const deck of decks) {
-  execSync(`yarn seed:deck -p ${deck.path} -n ${deck.name} -d "${deck.description}"`);
+  exec(`yarn seed:deck -p ${deck.path} -n ${deck.name} -d "${deck.description}"`).stdout.pipe(process.stdout);
 }
