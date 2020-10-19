@@ -1,6 +1,6 @@
 export async function get(req, res) {
     const hello = {
-      'body' : 'hello world'  
+      body: 'hello world'
     };
     res.json(hello);
   }
