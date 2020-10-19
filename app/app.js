@@ -5,6 +5,7 @@ import * as game from './routes/game.js';
 import * as decks from './routes/decks.js';
 import * as actions from './routes/actions.js';
 import * as discourse from './routes/discourse.js';
+import * as hello from './routes/hello.js';
 
 const app = express();
 export const port = process.env.PORT || 8000;
@@ -18,6 +19,7 @@ app.post('/game/draw', game.draw);
 app.get('/decks', decks.get);
 app.get('/actions', actions.get);
 app.get('/discourse/links', discourse.links);
+app.get('/hello', hello.get);
 
 export default app;
 
