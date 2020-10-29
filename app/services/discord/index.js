@@ -3,7 +3,8 @@ import log from '../../log.js';
 import newGame from './newGame.js';
 import draw from './draw.js';
 import decks from './decks.js';
-import echo from './echo.js'
+import echo from './echo.js';
+import d_eval from './eval.js'
 import history from './history.js';
 
 const HELP_MESSAGE = `the available commands are:
@@ -13,6 +14,7 @@ const HELP_MESSAGE = `the available commands are:
 \`!history\` - list the cards drawn this game
 \`!history {username}\` - list the cards someone has drawn (multi-game)
 \`!echo {message}\` - echo message
+\`!eval {code}\` - evaluate arbitrary JavaScript
 \`!help\` - shows this message`;
 
 const client = new Discord.Client();
@@ -36,6 +38,7 @@ client.on('message', async message => {
 
     // utility commands
     case('echo'): return echo(message, opt);
+    case('eval'): return d_eval(message, opt);
     case('help'): return message.reply(HELP_MESSAGE);
   }
 });
