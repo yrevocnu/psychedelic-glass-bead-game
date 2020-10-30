@@ -41,6 +41,10 @@ export default async function draw(message, opt) {
       card.name += ' (Reversed)';
       card.description = card.reverse;
     }
+
+    if (card.link) {
+      card.description = `[${card.description}](${card.link})`
+    }
   } catch (err) {
     return message.reply('Could not draw a card! Try selecting another deck or starting a new game with `!new`');
   }
