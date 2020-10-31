@@ -8,6 +8,7 @@ const schema = new mongoose.Schema({
   image: String,
   reverse: String,
   suit: String,
+  link: String,
   deck: {
     type: ObjectId, 
     ref: 'Deck'
