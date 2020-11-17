@@ -16,6 +16,10 @@ const decks = [{
   path: 'assets/decks/jung',
   name: 'Jung',
   description: 'Deeply psychological'
+}, {
+  path: 'assets/decks/yrevocnu',
+  name: 'Yrevocnu',
+  description: 'Maximum Viable Tarot'
 }];
 
 for (const deck of decks) {
