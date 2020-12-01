@@ -12,17 +12,17 @@ program
   .option('-d, --description <string>', 'deck description')
   .parse(process.argv);
 
-const files = fs.readdirSync(program.path);
+const imageFiles = fs.readdirSync(program.path);
 
 (async () => {
-  const cards = await csv().fromFile('./assets/decks/cards.csv');
+  const cards = await csv().fromFile('./' + program.path + '.csv');
   const deck = await Deck.findOneAndUpdate({ name: program.name }, { description: program.description }, { new: true, upsert: true, returnNewDocument: true }).lean();
 
   if (!deck) {
     process.exit(1);
   }
 
-  for (const file of files) {
+  for (const file of imageFiles) {
     const details = cards.find(card => card.File === file);
 
     if (!details) {
@@ -39,7 +39,5 @@ const files = fs.readdirSync(program.path);
       description: details.Description 
     }, { new: true, upsert: true, returnNewDocument: true });
   }
-
-  console.log(`Upserted ${files.length} cards in "${program.name}"`);
-  process.exit();
+  console.log(`Upserted ${imageFiles.length} cards in "${program.name}"`);
 })();

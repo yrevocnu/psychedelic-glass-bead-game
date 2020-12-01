@@ -1,0 +1,79 @@
+Deck,Directory,File,Suit,Name,Description
+Jung,Jung/,J_Fool.jpg,Trumps,Fool,"the source, subject and object inified"
+Jung,Jung/,J_Magician.jpg,Trumps,Magician,ultimate director in the quest for self.  The male archetype that resides within females
+Jung,Jung/,J_HighPriestess.jpg,Trumps,High Priestess,"keeper of secret knowledge, the female archetype that resides within males"
+Jung,Jung/,J_Empress.jpg,Trumps,Empress,all archetypes of the mother in one
+Jung,Jung/,J_Emperor.jpg,Trumps,Emperor,all archetypes of the father in one
+Jung,Jung/,J_Heirophant.jpg,Trumps,Heirophant,"the father as law giver, the demiurge, organized religeon"
+Jung,Jung/,J_Lovers.jpg,Trumps,Lovers,son as a collector of experience
+Jung,Jung/,J_Chariot.jpg,Trumps,Chariot,the vehicle that carries between levels of conciousness
+Jung,Jung/,J_Strength.jpg,Trumps,Strength,The daughter as collector of experience
+Jung,Jung/,J_Hermit.jpg,Trumps,Hermit,"the teacher and guider of souls, grandfather as teacher"
+Jung,Jung/,J_Fortune.jpg,Trumps,Fortune,the mother as the determiner of experience
+Jung,Jung/,J_Justice.jpg,Trumps,Justice,the mother who punshes and rewards
+Jung,Jung/,J_HangedMan.jpg,Trumps,Hanged Man,"self sacrifices son, as aspect of the perfected self"
+Jung,Jung/,J_Death.jpg,Trumps,Death,mother as gatweway
+Jung,Jung/,J_Temperance.jpg,Trumps,Temperance,control or mitigation through opposites
+Jung,Jung/,J_Devil.jpg,Trumps,Devil,enslavement of conciousness through the illusion of matter
+Jung,Jung/,J_Tower.jpg,Trumps,Tower,father as averager/ protector
+Jung,Jung/,J_Star.jpg,Trumps,Star,"Maiden, the inspiration for the hero"
+Jung,Jung/,J_Moon.jpg,Trumps,Moon,"witcraft, Hecate, the crone"
+Jung,Jung/,J_Sun.jpg,Trumps,Sun,inner child
+Jung,Jung/,J_Judgement.jpg,Trumps,Judgement,"judgement at the end of a journey, the final judgement"
+Jung,Jung/,J_World.jpg,Trumps,World,the masks we use to hide ourselves from the world.
+Jung,Jung/,J_W_K.jpg,Wands,King of Wands,aggressive father
+Jung,Jung/,J_W_Q.jpg,Wands,Queen of Wands,stylish mother
+Jung,Jung/,J_W_Prince.jpg,Wands,Prince of Wands,affectionate son
+Jung,Jung/,J_W_Princess.jpg,Wands,Princess of Wands,clever daughter
+Jung,Jung/,J_W_10.jpg,Wands,10 of Wands,control over others
+Jung,Jung/,J_W_9.jpg,Wands,9 of Wands,anger
+Jung,Jung/,J_W_8.jpg,Wands,8 of Wands,intellectual activity
+Jung,Jung/,J_W_7.jpg,Wands,7 of Wands,passion
+Jung,Jung/,J_W_6.jpg,Wands,6 of Wands,strong leadership
+Jung,Jung/,J_W_5.jpg,Wands,5 of Wands,assertiveness
+Jung,Jung/,J_W_4.jpg,Wands,4 of Wands,success
+Jung,Jung/,J_W_3.jpg,Wands,3 of Wands,fantasy
+Jung,Jung/,J_W_2.jpg,Wands,2 of Wands,invention
+Jung,Jung/,J_W_A.jpg,Wands,Ace of Wands,birth & death
+Jung,Jung/,J_C_K.jpg,Cups,King of Cups,Intellectual Father
+Jung,Jung/,J_C_Q.jpg,Cups,Queen of Cups,Emotional Mother
+Jung,Jung/,J_C_Prince.jpg,Cups,Prince of Cups,charming son
+Jung,Jung/,J_C_Princess.jpg,Cups,Princess of Cups,ambitious daughter
+Jung,Jung/,J_C_10.jpg,Cups,10 of Cups,pain and sorrow
+Jung,Jung/,J_C_9.jpg,Cups,9 of Cups,vacillation
+Jung,Jung/,J_C_8.jpg,Cups,8 of Cups,change
+Jung,Jung/,J_C_7.jpg,Cups,7 of Cups,obstacles
+Jung,Jung/,J_C_6.jpg,Cups,6 of Cups,sympathetic attachment
+Jung,Jung/,J_C_5.jpg,Cups,5 of Cups,troubles
+Jung,Jung/,J_C_4.jpg,Cups,4 of Cups,benevolance & pleasure
+Jung,Jung/,J_C_3.jpg,Cups,3 of Cups,secure enviornment
+Jung,Jung/,J_C_2.jpg,Cups,2 of Cups,adventure
+Jung,Jung/,J_C_A.jpg,Cups,Ace of Cups,change of feelings
+Jung,Jung/,J_S_K.jpg,Swords,King of Swords,romantic father
+Jung,Jung/,J_S_Q.jpg,Swords,Queen of Swords,diplomatic mother
+Jung,Jung/,J_S_Prince.jpg,Swords,Prince of Swords,idealistic son
+Jung,Jung/,J_S_Princess.jpg,Swords,Princess of Swords,controlling daughter
+Jung,Jung/,J_S_10.jpg,Swords,10 of Swords,gain through partnership
+Jung,Jung/,J_S_9.jpg,Swords,9 of Swords,sharing
+Jung,Jung/,J_S_8.jpg,Swords,8 of Swords,intellectual skill
+Jung,Jung/,J_S_7.jpg,Swords,7 of Swords,love
+Jung,Jung/,J_S_6.jpg,Swords,6 of Swords,justice
+Jung,Jung/,J_S_5.jpg,Swords,5 of Swords,rash decision
+Jung,Jung/,J_S_4.jpg,Swords,4 of Swords,imagination
+Jung,Jung/,J_S_3.jpg,Swords,3 of Swords,idealism
+Jung,Jung/,J_S_2.jpg,Swords,2 of Swords,opposition & loss
+Jung,Jung/,J_S_A.jpg,Swords,Ace of Swords,conflict of ideas
+Jung,Jung/,J_P_K.jpg,Pentacles,King of Pentacles,responsiber father
+Jung,Jung/,J_P_Q.jpg,Pentacles,Queen of Pentacles,secretive mother
+Jung,Jung/,J_P_Prince.jpg,Pentacles,Prince of Pentacles,self assured son
+Jung,Jung/,J_P_Princess.jpg,Pentacles,Princess of Pentacles,Isolated daughter
+Jung,Jung/,J_P_10.jpg,Pentacles,10 of Pentacles,isolated power
+Jung,Jung/,J_P_9.jpg,Pentacles,9 of Pentacles,selfishness
+Jung,Jung/,J_P_8.jpg,Pentacles,8 of Pentacles,manipullation & Secrets
+Jung,Jung/,J_P_7.jpg,Pentacles,7 of Pentacles,gain through commerce
+Jung,Jung/,J_P_6.jpg,Pentacles,6 of Pentacles,gain of wealth and power through hard work
+Jung,Jung/,J_P_5.jpg,Pentacles,5 of Pentacles,responsible authority
+Jung,Jung/,J_P_4.jpg,Pentacles,4 of Pentacles,wealth
+Jung,Jung/,J_P_3.jpg,Pentacles,3 of Pentacles,response to conflict
+Jung,Jung/,J_P_2.jpg,Pentacles,2 of Pentacles,reorganization
+Jung,Jung/,J_P_A.jpg,Pentacles,Ace of Pentacles,security desytoyed

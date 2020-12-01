@@ -1,5 +1,9 @@
 import { exec } from 'child_process';
 
+// Note:
+// path: entry refers to both directory with images
+//       and path of csv file with deck data
+//       i.e. assets/decks/toth.csv
 const decks = [{
   path: 'assets/decks/toth',
   name: 'Toth',
