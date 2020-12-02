@@ -34,6 +34,6 @@ sudo service mongod start
 
 The card data is is `assets/decks`.
 
-`cards.csv` has all the card data with its spellings.
+There is a `.csv` file for each deck with all the card data with its spellings.
 
-The directories contain the images of the cards. (Referenced by `cards.csv`)
+The directories contain the images of the cards. (Referenced by the decl `.csv` files)
