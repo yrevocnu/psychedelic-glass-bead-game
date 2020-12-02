@@ -1,5 +1,5 @@
 import Discord from 'discord.js';
-import log from '../../log.js';
+import log from '../log.js';
 import newGame from './newGame.js';
 import draw from './draw.js';
 import decks from './decks.js';

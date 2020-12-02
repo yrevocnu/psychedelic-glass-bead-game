@@ -1,7 +1,8 @@
 import escape from 'escape-html';
-import Card from '../models/Card.js';
-import Game from '../models/Game.js';
 import Deck from '../models/Deck.js';
+import Game from '../models/Game.js';
+
+import gameDraw from '../handlers/draw.js';
 
 export async function get(req, res) {
   const game = await Game.findOne().populate({
@@ -42,27 +43,12 @@ export async function draw(req, res) {
     return res.send(`Deck ${deckName} does not exist!`);
   }
 
-  let game = await Game.findOne({}).lean();
-  
-  if (!game) {
-    game = await Game.create({});
-  }
-
-  const blacklist = game.cards;
-
-  const cards = await Card
-    .aggregate()
-    .match({ _id: { $nin: blacklist }, deck: deck._id })
-    .sample(1);
-
-  const card = cards[0];
+  const card = await gameDraw(deck);
 
   if (!card) {
     res.statusCode = 400;
     return res.send('There are no more cards to draw!');
   }
-
-  await Game.updateOne({ _id: game._id }, { $push: { cards: card._id }});
 
   res.json(card);
 }

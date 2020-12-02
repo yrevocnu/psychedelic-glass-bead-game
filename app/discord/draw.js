@@ -1,12 +1,12 @@
 import Discord from 'discord.js';
-import log from '../../log.js';
+import log from '../log.js';
 import request from 'supertest';
-import app from '../../app.js';
-import Deck from '../../models/Deck.js';
-import User from '../../models/User.js';
-import Action from '../../models/Action.js';
-import Game from '../../models/Game.js';
-import * as images from '../../services/images.js';
+import app from '../app.js';
+import Deck from '../models/Deck.js';
+import User from '../models/User.js';
+import Action from '../models/Action.js';
+import Game from '../models/Game.js';
+import * as images from '../services/images.js';
 
 let decks;
 
@@ -35,6 +35,8 @@ export default async function draw(message, opt) {
     const response = await request(app).post(`/game/draw?deck=${opt}`).expect(200);
 
     card = response.body;
+
+    log.debug(card);
 
     if (card.reverse && Math.random() < 0.5) {
       reversed = true;
