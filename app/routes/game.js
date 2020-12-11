@@ -1,3 +1,4 @@
+import escape from 'escape-html';
 import Card from '../models/Card.js';
 import Game from '../models/Game.js';
 import Deck from '../models/Deck.js';
@@ -27,7 +28,7 @@ export async function create(req, res) {
 }
 
 export async function draw(req, res) {
-  let deckName = req.query.deck;
+  let deckName = escape(req.query.deck);
 
   if (!deckName) {
     res.status = 400;
