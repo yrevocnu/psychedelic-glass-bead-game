@@ -4,7 +4,7 @@ import cheerio from 'cheerio';
 
 const cache = {};
 
-export async function links(req, res, next) {
+export async function links(req, res) {
   const { body: response } = await got('https://discourse.ecult.org/posts.json', {
     headers: {
       'Api-Key': process.env.DISCOURSE_API_KEY,

@@ -10,6 +10,11 @@
 1. `yarn seed:db` <-- seed db
 1. `yarn debug` <-- run app
 
+## Contributing
+1. Run `yarn eslint .` prior to committing code and address all enumerated issues.
+1. Commits should be squashed and rebased when merging PRs. No merge commits.
+1. PRs are encouraged and require 1 approval to merge.
+
 ## Env
 
 `.env` fields:

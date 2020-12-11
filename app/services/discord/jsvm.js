@@ -1,5 +1,4 @@
-import Discord from 'discord.js';
-import vm from 'vm'
+import vm from 'vm';
 
 export default async function jsvm(message, opt) {
   const contextObject = {

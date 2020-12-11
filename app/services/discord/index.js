@@ -4,7 +4,7 @@ import newGame from './newGame.js';
 import draw from './draw.js';
 import decks from './decks.js';
 import echo from './echo.js';
-import jsvm from './jsvm.js'
+import jsvm from './jsvm.js';
 import history from './history.js';
 
 const HELP_MESSAGE = `the available commands are:
@@ -30,16 +30,16 @@ client.on('message', async message => {
   const opt = match[2];
 
   switch(command) {
-    // game commands
-    case('new'): return newGame(message, opt);
-    case('decks'): return decks(message, opt);
-    case('draw'): return draw(message, opt);
-    case('history'): return history(message, opt);
+  // game commands
+  case('new'): return newGame(message, opt);
+  case('decks'): return decks(message, opt);
+  case('draw'): return draw(message, opt);
+  case('history'): return history(message, opt);
 
     // utility commands
-    case('echo'): return echo(message, opt);
-    case('js'): return jsvm(message, opt);
-    case('help'): return message.reply(HELP_MESSAGE);
+  case('echo'): return echo(message, opt);
+  case('js'): return jsvm(message, opt);
+  case('help'): return message.reply(HELP_MESSAGE);
   }
 });
 
