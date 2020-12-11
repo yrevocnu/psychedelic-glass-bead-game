@@ -44,9 +44,9 @@ client.on('message', async message => {
 });
 
 export function init() {
-  if (process.env.TOKEN) {
-    client.login(process.env.TOKEN);
+  if (process.env.DISCORD_TOKEN) {
+    client.login(process.env.DISCORD_TOKEN);
   } else {
-    log.error('No TOKEN env variable set!');
+    log.error('No DISCORD_TOKEN env variable set!');
   }
 }

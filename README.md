@@ -3,7 +3,7 @@
 1. [Install node via nvm](https://github.com/nvm-sh/nvm)
 1. [Install Yarn](https://classic.yarnpkg.com/en/docs/install)
 1. [Install Mongo Community Edition](https://docs.mongodb.com/manual/installation/)
-1. Move `.env-sample` to `.env` and replace `TOKEN` (ask @benheller)
+1. Move `.env-sample` to `.env` and replace `DISCORD_TOKEN` (ask @benheller)
 1. `nvm install` <-- select node version
 1. `yarn install` <-- install deps
 1.  E.g. `sudo service mongod start` if running mongo locally
@@ -14,12 +14,6 @@
 1. Run `yarn eslint .` prior to committing code and address all enumerated issues.
 1. Commits should be squashed and rebased when merging PRs. No merge commits.
 1. PRs are encouraged and require 1 approval to merge.
-
-## Env
-
-`.env` fields:
-
- * `TOKEN`: Discord token
 
 ## Commands
 
