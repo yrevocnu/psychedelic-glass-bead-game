@@ -24,6 +24,10 @@ const decks = [{
   path: 'assets/decks/yrevocnu',
   name: 'Yrevocnu',
   description: 'Maximum Viable Tarot'
+}, {
+  path: 'assets/decks/archetopics',
+  name: 'Archetopics',
+  description: 'Regenaissance Sigils'
 }];
 
 for (const deck of decks) {
