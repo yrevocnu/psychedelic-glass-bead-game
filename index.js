@@ -1,4 +1,4 @@
-import * as discord from './app/services/discord/index.js';
+import * as discord from './app/discord/index.js';
 import * as app from './app/app.js';
 
 (async () => {

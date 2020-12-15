@@ -1,6 +1,6 @@
 import request from 'supertest';
 import Discord from 'discord.js';
-import app from '../../app.js';
+import app from '../app.js';
 
 export default async function decks(message) {
   const { body: decks } = await request(app).get('/decks/');

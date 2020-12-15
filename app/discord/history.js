@@ -1,5 +1,5 @@
 import request from 'supertest';
-import app from '../../app.js';
+import app from '../app.js';
 import moment from 'moment';
 
 export default async function history(message, opt) {
