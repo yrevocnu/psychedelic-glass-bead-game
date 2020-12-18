@@ -35,7 +35,8 @@ const imageFiles = fs.readdirSync(program.path);
       deck: deck._id
     }, { 
       suit: details.Suit, 
-      name: details.Name, 
+      name: details.Name,
+      reverse: details.Reverse,
       description: details.Description 
     }, { new: true, upsert: true, returnNewDocument: true });
   }
