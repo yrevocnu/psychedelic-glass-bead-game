@@ -5,6 +5,8 @@ export async function draw(path, rotate) {
   const dimensions = size(path);
   const canvas = Canvas.createCanvas(dimensions.width, dimensions.height);
   const ctx = canvas.getContext('2d');
+  ctx.fillStyle = 'white';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
   const img = await Canvas.loadImage(path);
 
   if (rotate) {
