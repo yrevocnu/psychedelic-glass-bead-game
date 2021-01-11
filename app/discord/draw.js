@@ -48,9 +48,16 @@ export default async function draw(message, opt) {
   }
 
   log.debug(`PGBG: ${message.author.username} drew the ${card.name} from ${opt} - ${card.image}`);
-    
   // build the message
-  const image = await images.draw(`./assets/decks/${opt.toLowerCase()}/${card.image}`, reversed ? 180 : 0);
+  var image;
+  if (card.file) {
+    image = await images.draw(
+      `./assets/decks/${opt.toLowerCase()}/${card.image}`,
+      reversed ? 180 : 0);
+  } else {
+    image = await images.write(card.name);
+  }
+
   const attachment = new Discord.MessageAttachment(image, card.image);
   const embed = new Discord.MessageEmbed()
     .setTitle(card.name)
