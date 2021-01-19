@@ -21,3 +21,16 @@ export async function draw(path, rotate) {
 
   return canvas.toBuffer();
 }
+
+export async function write(words) {
+  const canvas = Canvas.createCanvas(400, 400);
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle = 'white';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  ctx.fillStyle = 'black';
+  ctx.font = '16px Arial';
+  ctx.fillText(words, 250 - words.length * 5, 240);
+  
+  return canvas.toBuffer();
+}

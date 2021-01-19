@@ -16,29 +16,30 @@ const imageFiles = fs.readdirSync(program.path);
 
 (async () => {
   const cards = await csv().fromFile('./' + program.path + '.csv');
-  const deck = await Deck.findOneAndUpdate({ name: program.name }, { description: program.description }, { new: true, upsert: true, returnNewDocument: true }).lean();
+  const deck = await Deck.findOneAndUpdate(
+    { name: program.name },
+    { description: program.description },
+    { new: true, upsert: true, returnNewDocument: true }).lean();
 
   if (!deck) {
     process.exit(1);
   }
 
-  for (const file of imageFiles) {
-    const details = cards.find(card => card.File === file);
-
-    if (!details) {
-      console.error(`Could not find details for card: ${file}`);
+  for (const card of cards) {
+    if (card.File && !imageFiles.includes(card.File)) {
+      console.error(`Could not find image for card: ${card}`);
       continue;
     }
 
     await Card.findOneAndUpdate({
-      image: file,
+      name: card.Name,
       deck: deck._id
     }, { 
-      suit: details.Suit, 
-      name: details.Name,
-      reverse: details.Reverse,
-      description: details.Description 
+      suit: card.Suit,
+      image: card.File,
+      reverse: card.Reverse,
+      description: card.Description
     }, { new: true, upsert: true, returnNewDocument: true });
   }
-  console.log(`Upserted ${imageFiles.length} cards in "${program.name}"`);
+  console.log(`Upserted ${cards.length} cards in "${program.name}"`);
 })();
