@@ -9,8 +9,8 @@
   },
   "scripts": {
     "debug": "NODE_ENV=development nodemon --require dotenv/config --trace-warnings index.js",
-    "seed:deck": "node ./bin/seed-deck.js",
-    "seed:db": "node ./bin/seed-db.js",
+    "seed:deck": "node --require dotenv/config ./bin/seed-deck.js index.js",
+    "seed:db": "node --require dotenv/config ./bin/seed-db.js index.js",
     "start": "NODE_ENV=production node --require dotenv/config index.js",
     "lint": "yarn eslint ."
   },
