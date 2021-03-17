@@ -47,9 +47,9 @@ export default async function draw(message, opt) {
     return message.reply('Could not draw a card! Try selecting another deck or starting a new game with `!new`');
   }
 
-  log.debug(`PGBG: ${message.author.username} drew the ${card.name} from ${opt} - ${card.image}`);
+  log.debug(`PGBG: ${message.author.username} drew the ${card.name} from ${opt} - ${card.image}`);    
   // build the message
-  var image;
+  let image;
   if (card.file) {
     image = await images.draw(
       `./assets/decks/${opt.toLowerCase()}/${card.image}`,

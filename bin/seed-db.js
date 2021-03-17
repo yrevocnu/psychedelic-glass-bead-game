@@ -31,7 +31,7 @@ const decks = [{
 }, {
   path: 'assets/decks/oblique',
   name: 'Oblique',
-  description: 'Oblique Strategies by Brian Eno'
+  description: 'Oblique Strategies by Brian Eno and Peter Schmidt'
 }];
 
 for (const deck of decks) {
