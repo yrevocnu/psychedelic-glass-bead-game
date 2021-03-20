@@ -50,6 +50,7 @@ export default async function draw(message, opt) {
   log.debug(`PGBG: ${message.author.username} drew the ${card.name} from ${opt} - ${card.image}`);    
   // build the message
   let image;
+  
   if (card.image) {
     image = await images.draw(
       `./assets/decks/${opt.toLowerCase()}/${card.image}`,

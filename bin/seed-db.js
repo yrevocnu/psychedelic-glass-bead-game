@@ -37,7 +37,7 @@ const decks = [{
   name: 'Superflux',
   description: 'Superflux Instant Archetypes'
 }, {
-  path: 'assets/decks/gorey',
+  path: 'assets/decks/fantod',
   name: 'Fantod',
   description: 'The Fantod Pack By Edward Gorey'
 }];
