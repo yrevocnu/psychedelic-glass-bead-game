@@ -32,12 +32,12 @@ const decks = [{
   path: 'assets/decks/oblique',
   name: 'Oblique',
   description: 'Oblique Strategies by Brian Eno and Peter Schmidt'
-  }, {
-  path: 'assets/decks/Superflux',
+}, {
+  path: 'assets/decks/superflux',
   name: 'Superflux',
   description: 'Superflux Instant Archetypes'
-    }, {
-  path: 'assets/decks/Gorey',
+}, {
+  path: 'assets/decks/gorey',
   name: 'Fantod',
   description: 'The Fantod Pack By Edward Gorey'
 }];

@@ -19,6 +19,10 @@ export default async function gameDraw(deck) {
     .sample(1);
   
   const card = cards[0];
+
+  if (!card) {
+    throw new Error(`Deck ${deck._id} has no cards!`);
+  }
   
   await Game.updateOne({ _id: game._id }, { $push: { cards: card._id }});
 

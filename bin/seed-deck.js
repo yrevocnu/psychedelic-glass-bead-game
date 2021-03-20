@@ -24,7 +24,7 @@ const imageFiles = fs.readdirSync(program.path);
   if (!deck) {
     process.exit(1);
   }
-
+  
   for (const card of cards) {
     if (card.File && !imageFiles.includes(card.File)) {
       console.error(`Could not find image for card: ${card}`);
