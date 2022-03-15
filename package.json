@@ -4,6 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "engines": {
+    "node": "16.14.0"
+  },
   "scripts": {
     "debug": "NODE_ENV=development nodemon --require dotenv/config --trace-warnings index.js",
     "seed:deck": "node --require dotenv/config ./bin/seed-deck.js index.js",
