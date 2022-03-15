@@ -3,15 +3,16 @@ import got from 'got';
 import cheerio from 'cheerio';
 
 const cache = {};
+const BLACKLIST = ['forum.yrevocnu.com'];
 
 export async function links(req, res) {
-  const { body: response } = await got('https://discourse.ecult.org/posts.json', {
+  const { body: response } = await got('https://forum.yrevocnu.com/posts.json', {
     headers: {
       'Api-Key': process.env.DISCOURSE_API_KEY,
       'Api-Username': 'system'
     },
     json: true
-    
+
   });
 
   const posts = response.latest_posts;
@@ -22,7 +23,9 @@ export async function links(req, res) {
     .flat()
     .filter(Boolean);
 
-  links = _.uniqBy(links, link => (new URL(link)).hostname).slice(0, 10);
+  links = _.uniqBy(links, link => (new URL(link)).hostname)
+    .filter(link => !BLACKLIST.includes((new URL(link)).hostname))
+    .slice(0, 10);
 
   const previews = (await Promise.all(links.map(async link => {
     if (cache[link]) {
@@ -44,7 +47,7 @@ export async function links(req, res) {
     const titleMeta = $('head meta[property="og:title"]').attr('content');
     const titleSiteMeta = $('head meta[property="og:site_name"]').attr('content');
     const title = titleMeta || titleTag || titleSiteMeta;
-    
+
     if (!title) {
       return;
     }
