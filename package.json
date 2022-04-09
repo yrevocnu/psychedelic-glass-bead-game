@@ -30,7 +30,7 @@
     "global": "4.4.0",
     "image-size": "0.8.3",
     "lodash": "4.17.21",
-    "moment": "2.27.0",
+    "moment": "2.29.2",
     "mongoose": "5.13.14",
     "npm-check-updates": "7.0.1",
     "pino": "6.3.2",
